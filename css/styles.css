@@ -114,7 +114,7 @@ section#home {
     margin: 0 auto;
     width: 2rem;
     height: 2rem;
-    
+    background-color: var(--accent-color);
     border-radius: 50%; 
     animation: bounce 2s infinite;
 }
@@ -206,7 +206,7 @@ section#home {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
 }
 #branding {
     display: flex;
@@ -274,15 +274,16 @@ section#home {
     background-color: var(--background-color);
     border-radius: 1rem;
     padding: 2rem;
-
+    width: 100%;
 }
 .studios-content > p {
     font-size: 1.3rem;
 }
 .studios-content{
-    width: 80%;
+    width: 75%;
     margin-left: 2rem;
 }
+
 
 
 /* Media query for devices with a max-width of 600px */
