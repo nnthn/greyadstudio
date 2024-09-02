@@ -230,6 +230,7 @@ section#home {
     display: flex;
     height: fit-content;
     align-items: end;
+    width:25rem;
 }
 .vertical-text {
     writing-mode: vertical-rl; 
@@ -238,8 +239,18 @@ section#home {
     margin: 0;
     color: var(--desc-color);
 }
+.studio{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+}
+.studios-content{
+    flex: 1;
+}
 .studio-accent{
     height: 30rem;
+    width: 6.5rem;
 }
 .studio-img{
     display: flex;
@@ -253,16 +264,7 @@ section#home {
 .studios-content > p {
     font-size: 1.3rem;
 }
-.studios-content{
-   flex: 1;
-    margin-left: 2rem;
-}
-.studio{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    width: 100%;
-}
+
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem; 
@@ -364,7 +366,7 @@ section#home {
     }
 
     .studio-img {
-        width: 50%;
+        
 	height: 40vw;
 	margin-left: .3rem;
     }
@@ -372,7 +374,9 @@ section#home {
     .vertical-text {
         font-size: 2.6rem; 
     }
-
+    .vertical{
+	width: 9rem;
+    }
      .desc {
         padding-left: 1rem;
         font-size: .5rem; 
@@ -381,6 +385,7 @@ section#home {
     }
     .studio-accent{
 	height: 55vw;
+	width: 2.5rem;
     }
     .about-heading > h2 {
         font-size: 1.2rem; 
@@ -405,7 +410,9 @@ section#home {
 
 
 /*branding page*/
-
+.vertical-works{
+    width: 12rem;
+}
 .studio-hero{
     display: flex;
     justify-content: center;
