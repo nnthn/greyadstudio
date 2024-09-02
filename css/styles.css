@@ -282,24 +282,6 @@ section#home {
     border: 2px solid var(--accent-color);
     color: black; 
 }
-.studio-img{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    background-color: var(--background-color);
-    border-radius: 1rem;
-    padding: 2rem;
-
-}
-.studios-content > p {
-    font-size: 1.3rem;
-}
-.studios-content{
-   
-    margin-left: 2rem;
-}
-
-
 
 /* Media query for devices with a max-width of 600px */
 @media (max-width: 600px) {
