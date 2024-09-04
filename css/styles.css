@@ -19,7 +19,7 @@ body {
 
 section {
     height: calc(100vh - 5rem); 
-    margin: 0 35rem;
+    margin: 0 25rem;
     padding-top: 5rem; 
     scroll-snap-align: start;
     box-sizing: border-box;
@@ -40,7 +40,7 @@ footer {
     align-items: center;
     position: fixed;
     background-color: #F2F7F5;
-    padding: 1rem 35rem;
+    padding: 1rem 25rem;
     width: 100%;
     box-sizing: border-box;
     top: 0;
@@ -90,7 +90,6 @@ section#home {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 9rem;
     padding-top: 5rem;
     box-sizing: border-box;
 }
